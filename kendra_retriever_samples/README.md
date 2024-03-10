@@ -80,6 +80,11 @@ The samples directory is bundled with an `app.py` file that can be run as a web 
 streamlit run app.py llama2
 ```
 
+### Llama neuron model
+```bash
+streamlit run app.py llama2_n
+```
+
 The above command will run the `kendra_chat_llama_2` as the LLM chain. In order to run a different chain, pass a different provider, for example for running the `open_ai` chain run this command `streamlit run app.py openai`. Use the column 'streamlit provider name' from the table above to find out the provider name
 
 
